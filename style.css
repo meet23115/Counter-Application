@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Bree+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Baloo 2', cursive;
+}
+body{
+    background-color: #eeeeee;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .count{
+    background-color: #e2e2e2;    
+    padding: 60px 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px 8px #aaaaaacc;
+}
+.container .count #counter{
+    text-align: center;
+    margin: 35px;
+    font-size: 10rem;
+    font-weight: 300;
+}
+.container .count .buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.container .count #minus{
+    font-size: 1.5rem;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 20px 20px 12px 20px;
+    border: 2px solid #e2e2e2;
+    background-color: #d16a26;
+    color: #ffffff;
+}
+.container .count #minus:hover{
+    border: 2px solid #808080;
+    background-color: #ca8354;
+    color: #000000;
+}
+.container .count #plus{
+    font-size: 1.5rem;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 20px 20px 12px 20px;
+    border: 2px solid #e2e2e2;
+    background-color: #49a81c;
+    color: #ffffff;
+}
+.container .count #plus:hover{
+    border: 2px solid #808080;
+    background-color: #6fa755;
+    color: #000000;
+}
+.container .count #reset{
+    width: 175px;
+    font-size: 1.8rem;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 15px;
+    border: 2px solid #e2e2e2;
+    background-color: #2499a1;
+    color: #ffffff;
+}
+.container .count #reset:hover{
+    border: 2px solid #808080;
+    background-color: #42989e;
+    color: #000000;
+}
